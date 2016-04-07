@@ -1,3 +1,4 @@
+namespace EnumExtensions
 public static class EnumExtensions
 {
 	public static Dictionary<int, string> GetEnumList<T>() where T : struct, IConvertible // return Dictionary <value, Name> from all items of Enum type
